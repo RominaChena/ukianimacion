@@ -1,31 +1,40 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Proyecto web Ukianimación</title>
+    <title>Conócenos - Ukianimación</title>
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
     <header>
       <div class="header">
-        <img
-          src="img/Logoukianima.jpeg"
-          alt="logo de animación sin fondo transparente"
-          width="50"
-          height="50"
-        />
+        <img src="img/Logoukianima.jpeg" alt="logo de animación" width="50" height="50" />
         <nav>
           <ul>
-            <li>Inicio</li>
-            <li>Contacto</li>
-            <li>Conocenos</li>
-            <li>Reseñas</li>
-            <li>Disponibilidad</li>
+            <li><button class="btn-menu" onclick="location.href='index.html'">Inicio</button></li>
+            <li><button class="btn-menu" onclick="location.href='contacto.html'">Contacto</button></li>
+            <li><button class="btn-menu" onclick="location.href='conocenos.html'">Conócenos</button></li>
+            <li><button class="btn-menu" onclick="location.href='disponibilidad.html'">Disponibilidad</button></li>
           </ul>
         </nav>
       </div>
     </header>
-    <main></main>
+
+    <main>
+      <h2>Conócenos</h2>
+      <p>Somos un equipo apasionado por hacer eventos inolvidables.</p>
+    </main>
+
+    <footer>
+      <div class="footer-icons">
+        <a href="https://www.instagram.com/ukianimacion/" target="_blank">
+          <img src="img/instagram.png" alt="Instagram" width="50" height="50" />
+        </a>
+        <a href="https://wa.me/2216131500" target="_blank">
+          <img src="img/whatsapp.png" alt="WhatsApp" width="50" height="50" />
+        </a>
+      </div>
+    </footer>
   </body>
 </html>
